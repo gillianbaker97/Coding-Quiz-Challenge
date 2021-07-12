@@ -13,9 +13,11 @@ Correct.setAttribute("style", "opacity: 0; filter: alpha(opacity=0); display: fl
 Incorrect.setAttribute("style", "opacity: 0; filter: alpha(opacity=0); display: flex; justify-content: center; color:grey; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-size: 20px; " );
 
 
+
 rightClick.addEventListener("click", function myFunction() {
 Correct.setAttribute("style", "opacity: 1; filter: alpha(opacity=1); display: flex; justify-content: center; color:grey; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-size: 20px; " );
-setTimeout(function(){document.querySelector('.Correct').innerHTML = '';}, 1000);
+setTimeout(function(){location.href = "quizpg2.html"}, 5000);
+setTimeout(function(){document.querySelector('.Correct').innerHTML = '';}, 5000);
 
 }
 );
