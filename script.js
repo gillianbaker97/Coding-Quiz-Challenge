@@ -5,18 +5,19 @@ var buttonRClick = document.getElementById("buttonR");
 
 
 
-var correct = document.querySelector('.Correct');
+var Correct = document.querySelector('.Correct');
 var Incorrect = document.querySelector('.Incorrect');
 
 
-correct.setAttribute("style", "opacity: 0; filter: alpha(opacity=0); display: flex; justify-content: center; color:grey; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-size: 20px; " );
+Correct.setAttribute("style", "opacity: 0; filter: alpha(opacity=0); display: flex; justify-content: center; color:grey; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-size: 20px; " );
 Incorrect.setAttribute("style", "opacity: 0; filter: alpha(opacity=0); display: flex; justify-content: center; color:grey; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-size: 20px; " );
 
 
 
 rightClick.addEventListener("click", function myFunction() {
 Correct.setAttribute("style", "opacity: 1; filter: alpha(opacity=1); display: flex; justify-content: center; color:grey; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-size: 20px; " );
-setTimeout(function(){location.href = "quizpg2.html"}, 5000);
+setTimeout(function(){location = "quizpg2.html"}, 5000);
+window.location.replace("quizpg2.html");
 setTimeout(function(){document.querySelector('.Correct').innerHTML = '';}, 5000);
 
 }
