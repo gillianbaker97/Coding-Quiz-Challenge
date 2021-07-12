@@ -13,7 +13,7 @@ header {
 }
 
 
-#button {
+#button, #buttonW, #buttonR {
     border: none;
     color: black;
     background-color: violet;
@@ -39,6 +39,16 @@ header {
     font-size: 16px;
     margin: 4px 2px;
 
+}
+
+#buttonR:hover {
+    opacity: .6;
+    filter: alpha(opacity=.6);
+}
+
+#buttonW:hover {
+    opacity: .6;
+    filter: alpha(opacity=.6);
 }
 
 #button:hover {
