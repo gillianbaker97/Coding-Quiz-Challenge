@@ -1,5 +1,2 @@
-var buttonClick = document.getElementById("button");
-
-buttonClick.addEventListener("click", function myFunction(){
-    window.location.replace("quizpg1.html");
-} );
+var Correct = document.querySelector('.Correct');
+var Incorrect = document.querySelector('.Incorrect');
