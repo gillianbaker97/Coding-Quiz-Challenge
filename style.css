@@ -112,3 +112,22 @@ ul {
     border: 15px;
 }
 
+.final {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 50px;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+p {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 200px;
+    margin-bottom: 50px;
+    margin-top: -75px;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}

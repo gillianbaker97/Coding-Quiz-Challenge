@@ -1,13 +1,8 @@
 var highScore = document.querySelector(".highScore");
-var final = highScore.value
+var highScore2 = document.querySelector(".highScore2");
+var highScore3 = document.querySelector(".highScore3");
+var score = document.getElementById("#score");
 
-localStorage.setItem("final", JSON.stringify(final));
-renderMessage();
+score.innerHTML = highScore + highScore2 + highScore3;
 
-function renderMessage() {
-    var finalScore = JSON.parse(localStorage.getItem("final"));
-    if (finalScore !==null) {
-    document.querySelector(".final").textContent = highScore + 1
-    }
 
-}

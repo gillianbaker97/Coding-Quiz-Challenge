@@ -2,6 +2,7 @@ var rightClick = document.getElementById("right");
 var buttonClick = document.getElementById("button");
 var buttonWClick = document.getElementById("buttonW");
 var buttonRClick = document.getElementById("buttonR");
+var highScore = document.querySelector(".highScore");
 
 
 
@@ -19,6 +20,7 @@ Correct.setAttribute("style", "opacity: 1; filter: alpha(opacity=1); display: fl
 //setTimeout(function(){document.querySelector('.Correct').innerHTML = '';}, 5000);
 //window.location.replace("quizpg2.html");
 setTimeout(function(){window.location.replace("quizpg2.html")}, 2000);
+let highScore = 6; 
 }
 );
 
