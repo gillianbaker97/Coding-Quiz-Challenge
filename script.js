@@ -19,11 +19,6 @@ Correct.setAttribute("style", "opacity: 1; filter: alpha(opacity=1); display: fl
 //setTimeout(function(){document.querySelector('.Correct').innerHTML = '';}, 5000);
 //window.location.replace("quizpg2.html");
 setTimeout(function(){window.location.replace("quizpg2.html")}, 2000);
-var highScore = {
-    score: score.value,
-};
-localStorage.setItem("highScore", JSON.stringify(highScore));
-renderMessage();
 }
 );
 
