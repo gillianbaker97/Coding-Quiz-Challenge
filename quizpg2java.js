@@ -1,6 +1,6 @@
 var rightClick = document.getElementById("right");
 var right1Click = document.getElementById("right1");
-var buttonClick = document.getElementById("button");
+//var buttonClick = document.getElementById("button");
 var buttonWClick = document.getElementById("buttonW");
 var buttonRClick = document.getElementById("buttonR");
 
@@ -39,7 +39,7 @@ setTimeout(function(){window.location.replace("quizpg3.html")}, 2000);
 }
 );
 
-buttonR.addEventListener("click", function myFunction4() {
+buttonRClick.addEventListener("click", function myFunction4() {
 Incorrect.setAttribute("style", "opacity: 1; filter: alpha(opacity=1); display: flex; justify-content: center; color:grey; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-size: 20px; " );
 //setTimeout(function(){document.querySelector('.Incorrect').innerHTML = '';}, 3000);
 setTimeout(function(){window.location.replace("quizpg3.html")}, 2000);
