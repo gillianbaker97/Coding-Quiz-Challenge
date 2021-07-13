@@ -19,14 +19,14 @@ buttonClick.addEventListener("click", function myFunction() {
 Incorrect.setAttribute("style", "opacity: 1; filter: alpha(opacity=1); display: flex; justify-content: center; color:grey; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-size: 20px; " );
 //setTimeout(function(){document.querySelector('.Correct').innerHTML = '';}, 5000);
 //window.location.replace("quizpg2.html");
-setTimeout(function(){window.location.replace("quizpg3.html")}, 2000);
+setTimeout(function(){window.location.replace("form1.html")}, 2000);
 }
 );
 
 rightClick.addEventListener("click", function myFunction2() {
 Correct.setAttribute("style", "opacity: 1; filter: alpha(opacity=1); display: flex; justify-content: center; color:grey; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-size: 20px; " );
 //setTimeout(function(){document.querySelector('.Incorrect').innerHTML = '';}, 3000);
-setTimeout(function(){window.location.replace("quizpg3.html")}, 2000);
+setTimeout(function(){window.location.replace("form1.html")}, 2000);
 
 }
 );
@@ -34,7 +34,7 @@ setTimeout(function(){window.location.replace("quizpg3.html")}, 2000);
 buttonWClick.addEventListener("click", function myFunction3() {
 Incorrect.setAttribute("style", "opacity: 1; filter: alpha(opacity=1); display: flex; justify-content: center; color:grey; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-size: 20px; " );
 //setTimeout(function(){document.querySelector('.Incorrect').innerHTML = '';}, 3000);
-setTimeout(function(){window.location.replace("quizpg3.html")}, 2000);
+setTimeout(function(){window.location.replace("form1.html")}, 2000);
 
 }
 );
@@ -42,7 +42,7 @@ setTimeout(function(){window.location.replace("quizpg3.html")}, 2000);
 buttonR.addEventListener("click", function myFunction4() {
 Incorrect.setAttribute("style", "opacity: 1; filter: alpha(opacity=1); display: flex; justify-content: center; color:grey; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-size: 20px; " );
 //setTimeout(function(){document.querySelector('.Incorrect').innerHTML = '';}, 3000);
-setTimeout(function(){window.location.replace("quizpg3.html")}, 2000);
+setTimeout(function(){window.location.replace("form1.html")}, 2000);
 
 }
 );
