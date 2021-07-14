@@ -9,14 +9,3 @@ var highScore2 = 6;
 var highScore3 = 6;
 
 
-rightClick.addEventListener("click", function() {
-    
-
-score.innerHTML = highScore + highScore2 + highScore3;
-
-
-});
-
-
-
-
