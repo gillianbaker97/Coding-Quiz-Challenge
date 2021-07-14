@@ -28,7 +28,7 @@ rightClick.addEventListener("click", function myFunction2() {
 Correct.setAttribute("style", "opacity: 1; filter: alpha(opacity=1); display: flex; justify-content: center; color:grey; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-size: 20px; " );
 //setTimeout(function(){document.querySelector('.Incorrect').innerHTML = '';}, 3000);
 setTimeout(function(){window.location.replace("form1.html")}, 2000);
-let highScore3 = 6;
+highScore3 = 6;
 }
 );
 
