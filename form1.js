@@ -9,15 +9,16 @@
 //var highScore3 = 6;
 
 
+
 highScore = 6;
 highScore2 = 6;
 highScore3 = 6;
 
+console.log(6);
 
 localStorage.setItem("highScore", JSON.stringify(highScore)); 
 localStorage.setItem("highScore2", JSON.stringify(highScore2)); 
 localStorage.setItem("highScore3", JSON.stringify(highScore3)); 
-
 
 
 var score = localStorage.getItem("highScore");
@@ -30,6 +31,13 @@ function add () {
   var totalScore = JSON.parse(localStorage.getItem("highScore"));
   if (totalScore !== null) {
     document.getElementById("totalScore").innerHTML = highScore + 
-    highScore2 + highscore3
+    highScore2 + highScore3
   }
+}
+
+add(highScore + highScore2 + highScore3);
+
+addEventListener("click", function(event)) {
+  event.preventDefault();
+
 }
