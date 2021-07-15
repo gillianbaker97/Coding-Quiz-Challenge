@@ -3,7 +3,7 @@ var right1Click = document.getElementById("right1");
 //var buttonClick = document.getElementById("button");
 var buttonWClick = document.getElementById("buttonW");
 var buttonRClick = document.getElementById("buttonR");
-var highScore2 = document.querySelector(".highScore2");
+var score2 = localStorage.getItem("highScore2");
 
 
 
@@ -22,6 +22,8 @@ Correct.setAttribute("style", "opacity: 1; filter: alpha(opacity=1); display: fl
 //window.location.replace("quizpg2.html");
 setTimeout(function(){window.location.replace("quizpg3.html")}, 2000);
 highScore2 = 6;
+localStorage.setItem("highScore2", JSON.stringify(highScore2)); 
+
 }
 );
 
@@ -30,6 +32,8 @@ Correct.setAttribute("style", "opacity: 1; filter: alpha(opacity=1); display: fl
 //setTimeout(function(){document.querySelector('.Incorrect').innerHTML = '';}, 3000);
 setTimeout(function(){window.location.replace("quizpg3.html")}, 2000);
 highScore2 = 6;
+localStorage.setItem("highScore2", JSON.stringify(highScore2)); 
+
 
 }
 );

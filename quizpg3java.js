@@ -3,7 +3,7 @@ var rightClick = document.getElementById("right");
 var buttonClick = document.getElementById("button");
 var buttonWClick = document.getElementById("buttonW");
 var buttonRClick = document.getElementById("buttonR");
-var highScore3 = document.querySelector(".highScore3");
+var score3 = localStorage.getItem("highScore3");
 
 
 
@@ -29,6 +29,8 @@ Correct.setAttribute("style", "opacity: 1; filter: alpha(opacity=1); display: fl
 //setTimeout(function(){document.querySelector('.Incorrect').innerHTML = '';}, 3000);
 setTimeout(function(){window.location.replace("form1.html")}, 2000);
 highScore3 = 6;
+localStorage.setItem("highScore3", JSON.stringify(highScore3)); 
+
 }
 );
 
